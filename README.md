@@ -1,5 +1,3 @@
-# Splunk-Detection-Lab
-Hands-on Splunk SIEM detection lab on Ubuntu Server, featuring custom detection rules, real-time alerting, macros, and investigation workflow actions.
 # 🛡️ Hands-on Splunk SIEM Detection Lab (Ubuntu Server)
 
 ## 📌 Project Overview
@@ -23,6 +21,7 @@ This project documents the deployment, configuration, and practical use cases of
   ```spl
   index=main source="/var/log/auth.log" "COMMAND="
 
+
   Alerting: Configured Real-Time Triggered Alerts to capture execution of privileged tools and commands immediately on the Splunk dashboard.
 
 ⚡ Knowledge Objects & Optimization
@@ -38,7 +37,7 @@ Usage: Simplifies investigation queries by typing `sudo_events` in the search ba
 🔗 Analyst Workflow Actions
 Implemented custom Workflow Actions to accelerate Incident Response and Threat Intelligence lookup:
 
-Feature: Enabled direct, one-click pivoting from extracted IP addresses and event fields within log entries directly to external threat intelligence platforms (e.g., VirusTotal / AbuseIPDB).
+Feature: Enabled direct, one-click pivoting from extracted IP addresses and event fields within log entries directly to external threat intelligence platforms (e.g., VirusTotal / AbuseIPDB / Whois).
 
 Impact: Reduced analyst triage time and manual copy-paste errors during log investigation.
 
@@ -50,4 +49,3 @@ Writing targeted Search Processing Language (SPL) queries for threat detection.
 Creating SIEM Knowledge Objects (Macros and Workflow Actions) to improve SOC efficiency.
 
 Validating detection logic through simulated activities in a live environment.
-
