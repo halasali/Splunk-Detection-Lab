@@ -1,4 +1,5 @@
-🛡️ Hands-on Splunk SIEM Detection Lab (Ubuntu Server)
+#🛡️ Hands-on Splunk SIEM Detection Lab (Ubuntu Server)
+
 📌 Project Overview
 This project documents the deployment, configuration, and practical use cases of a Splunk Enterprise SIEM environment hosted on an Ubuntu Linux Server. The lab focuses on real-time log ingestion, custom detection rule creation, search optimization using macros, and streamlining analyst investigation flows through workflow actions and data normalization.
 
