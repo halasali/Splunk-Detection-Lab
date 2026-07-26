@@ -54,3 +54,8 @@ Created field aliases to normalize field names across different log sources to m
 * **Original Field:** `src`
 * **Aliased Field:** `source_ip`
 * **Sourcetype:** `access_combined`
+### 🧮 Calculated Fields
+Created automated field calculations to enhance data readability:
+* **Sourcetype:** `access_combined`
+* **New Field:** `megs`
+* **Expression:** `bytes/1024/1024` (Converts bytes to Megabytes automatically)
