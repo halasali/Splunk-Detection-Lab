@@ -49,3 +49,8 @@ Writing targeted Search Processing Language (SPL) queries for threat detection.
 Creating SIEM Knowledge Objects (Macros and Workflow Actions) to improve SOC efficiency.
 
 Validating detection logic through simulated activities in a live environment.
+### 🏷️ Field Aliases & Data Normalization
+Created field aliases to normalize field names across different log sources to match CIM standards:
+* **Original Field:** `src`
+* **Aliased Field:** `source_ip`
+* **Sourcetype:** `access_combined`
