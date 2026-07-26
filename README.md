@@ -1,26 +1,3 @@
-# 🛡️ Hands-on Splunk SIEM Detection Lab (Ubuntu Server)
-
-## 📌 Project Overview
-This project documents the deployment, configuration, and practical use cases of a **Splunk Enterprise SIEM** environment hosted on an **Ubuntu Linux Server**. The lab focuses on real-time log ingestion, custom detection rule creation, search optimization using macros, and streamlining analyst investigation flows through workflow actions and data normalization.
-
----
-
-## 🏗️ Lab Architecture & Environment
-* **SIEM Platform:** Splunk Enterprise
-* **Host Operating System:** Ubuntu Server (22.04 LTS)
-* **Ingested Log Sources:** `/var/log/auth.log` (Linux System & Authentication Logs)
-* **Focus Area:** Detection Engineering, Real-Time Alerting, SIEM Knowledge Objects (Macros, Workflow Actions, Field Aliases, Calculated Fields)
-
----
-
-## 🎯 Key Detection Use Cases & Configuration
-
-### 1. Real-Time Privileged Activity Monitoring
-* **Objective:** Detect execution of administrative commands executed via `sudo`.
-* **SPL Query:**
-```spl
-index=main source="/var/log/auth.log" "COMMAND="
-
 Alerting: Configured Real-Time Triggered Alerts to capture execution of privileged tools and commands immediately on the Splunk dashboard.
 
 ⚡ Knowledge Objects & Optimization
