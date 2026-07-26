@@ -18,7 +18,7 @@ Objective: Detect execution of administrative commands executed via sudo.
 SPL Query: index=main source="/var/log/auth.log" "COMMAND="
 
 Alerting: Configured Real-Time Triggered Alerts to capture execution of privileged tools and commands immediately on the Splunk dashboard.
-
+![Alerts Detection](./alertss.png)
 ⚡ Knowledge Objects & Optimization
 1. 🔍 Search Macros
 Created reusable search macros to simplify repetitive query syntax and streamline search workflows across the lab.
@@ -31,7 +31,7 @@ Usage: Simplifies investigation queries by typing sudo_events in the search bar.
 
 2. 🔗 Analyst Workflow Actions
 Implemented custom Workflow Actions to accelerate Incident Response and Threat Intelligence lookup:
-
+![Whois Action Workflow](./whois%20.png)
 Feature: Enabled direct, one-click pivoting from extracted IP addresses and event fields within log entries directly to external threat intelligence platforms (e.g., VirusTotal / AbuseIPDB / Whois).
 
 Impact: Reduced analyst triage time and manual copy-paste errors during log investigation.
