@@ -20,6 +20,7 @@ This project documents the deployment, configuration, and practical use cases of
 * **SPL Query:**
 ```spl
 index=main source="/var/log/auth.log" "COMMAND="
+
 Alerting: Configured Real-Time Triggered Alerts to capture execution of privileged tools and commands immediately on the Splunk dashboard.
 
 ⚡ Knowledge Objects & Optimization
